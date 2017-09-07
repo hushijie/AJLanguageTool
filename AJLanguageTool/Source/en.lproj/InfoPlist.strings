@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  AJLanguageTool
+
+  Created by JasonHu on 2017/9/7.
+  Copyright © 2017年 AJ. All rights reserved.
+*/
+
+CFBundleName="AJInternation";
+CFBundleDisplayName="AJInternation";

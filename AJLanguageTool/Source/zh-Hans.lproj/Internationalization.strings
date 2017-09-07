@@ -1,0 +1,15 @@
+/* 
+  Internationalization.strings
+  AJLanguageTool
+
+  Created by JasonHu on 2017/9/7.
+  Copyright © 2017年 AJ. All rights reserved.
+*/
+
+
+"AJLanguageChooseViewController_Title"="设置语言";
+"AJLanguageChooseViewController_CancelBtnTitle"="取消";
+"AJLanguageChooseViewController_DoneBtnTitle"="完成";
+
+
+"ViewController_LabelText"="胡世结";

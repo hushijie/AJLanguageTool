@@ -1,0 +1,20 @@
+/* 
+  Internationalization.strings
+  AJLanguageTool
+
+  Created by JasonHu on 2017/9/7.
+  Copyright © 2017年 AJ. All rights reserved.
+*/
+
+/*
+ 各个VC需要国际化的文案
+ "key" = "value";
+ */
+
+
+"AJLanguageChooseViewController_Title"="Language";
+"AJLanguageChooseViewController_CancelBtnTitle"="Cancel";
+"AJLanguageChooseViewController_DoneBtnTitle"="Done";
+
+
+"ViewController_LabelText"="Hushijie";

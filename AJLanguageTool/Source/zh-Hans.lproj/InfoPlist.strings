@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  AJLanguageTool
+
+  Created by JasonHu on 2017/9/7.
+  Copyright © 2017年 AJ. All rights reserved.
+*/
+
+/*
+ InfoPlist.strings 实现app名字等在InfoPlist文件中设置文案的国际化
+ 注：名字必须是：InfoPlist.strings ！
+ */
+
+CFBundleName="AJ国际化";
+CFBundleDisplayName="AJ国际化";

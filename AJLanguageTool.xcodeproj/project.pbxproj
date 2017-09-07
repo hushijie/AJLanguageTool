@@ -15,6 +15,13 @@
 		9D5B1DA21F603F8C00DF5CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B1DA01F603F8C00DF5CB2 /* LaunchScreen.storyboard */; };
 		9D5B1DAD1F603F8C00DF5CB2 /* AJLanguageToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DAC1F603F8C00DF5CB2 /* AJLanguageToolTests.m */; };
 		9D5B1DB81F603F8C00DF5CB2 /* AJLanguageToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DB71F603F8C00DF5CB2 /* AJLanguageToolUITests.m */; };
+		9D5B1DC91F603FF400DF5CB2 /* AJLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DC81F603FF400DF5CB2 /* AJLanguageTool.m */; };
+		9D5B1DCC1F60480A00DF5CB2 /* AJLanguageChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DCB1F60480A00DF5CB2 /* AJLanguageChooseViewController.m */; };
+		9D5B1DCF1F604AF700DF5CB2 /* AJLanguageChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DCE1F604AF700DF5CB2 /* AJLanguageChooseCell.m */; };
+		9D5B1DD11F6058BE00DF5CB2 /* AJLanguageCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B1DD01F6058BE00DF5CB2 /* AJLanguageCategories.plist */; };
+		9D5B1DD41F605AF200DF5CB2 /* AJLanguageCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B1DD31F605AF200DF5CB2 /* AJLanguageCategoryModel.m */; };
+		9D5B1DDA1F61297400DF5CB2 /* Internationalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B1DDC1F61297400DF5CB2 /* Internationalization.strings */; };
+		9D5B1DE11F6134F700DF5CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B1DE31F6134F700DF5CB2 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,23 @@
 		9D5B1DB31F603F8C00DF5CB2 /* AJLanguageToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJLanguageToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5B1DB71F603F8C00DF5CB2 /* AJLanguageToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJLanguageToolUITests.m; sourceTree = "<group>"; };
 		9D5B1DB91F603F8C00DF5CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5B1DC71F603FF400DF5CB2 /* AJLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLanguageTool.h; sourceTree = "<group>"; };
+		9D5B1DC81F603FF400DF5CB2 /* AJLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLanguageTool.m; sourceTree = "<group>"; };
+		9D5B1DCA1F60480A00DF5CB2 /* AJLanguageChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLanguageChooseViewController.h; sourceTree = "<group>"; };
+		9D5B1DCB1F60480A00DF5CB2 /* AJLanguageChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLanguageChooseViewController.m; sourceTree = "<group>"; };
+		9D5B1DCD1F604AF700DF5CB2 /* AJLanguageChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLanguageChooseCell.h; sourceTree = "<group>"; };
+		9D5B1DCE1F604AF700DF5CB2 /* AJLanguageChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLanguageChooseCell.m; sourceTree = "<group>"; };
+		9D5B1DD01F6058BE00DF5CB2 /* AJLanguageCategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AJLanguageCategories.plist; sourceTree = "<group>"; };
+		9D5B1DD21F605AF200DF5CB2 /* AJLanguageCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLanguageCategoryModel.h; sourceTree = "<group>"; };
+		9D5B1DD31F605AF200DF5CB2 /* AJLanguageCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLanguageCategoryModel.m; sourceTree = "<group>"; };
+		9D5B1DD51F6127AA00DF5CB2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9D5B1DD61F6127AB00DF5CB2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9D5B1DDB1F61297400DF5CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Internationalization.strings; sourceTree = "<group>"; };
+		9D5B1DDD1F61297900DF5CB2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Internationalization.strings"; sourceTree = "<group>"; };
+		9D5B1DDE1F61297E00DF5CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Internationalization.strings; sourceTree = "<group>"; };
+		9D5B1DE21F6134F700DF5CB2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9D5B1DE41F6134FB00DF5CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5B1DE51F6134FF00DF5CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,8 @@
 		9D5B1D911F603F8C00DF5CB2 /* AJLanguageTool */ = {
 			isa = PBXGroup;
 			children = (
+				9D5B1DD71F61285F00DF5CB2 /* Source */,
+				9D5B1DC51F603FCD00DF5CB2 /* Classes */,
 				9D5B1D951F603F8C00DF5CB2 /* AppDelegate.h */,
 				9D5B1D961F603F8C00DF5CB2 /* AppDelegate.m */,
 				9D5B1D981F603F8C00DF5CB2 /* ViewController.h */,
@@ -138,6 +164,39 @@
 				9D5B1DB91F603F8C00DF5CB2 /* Info.plist */,
 			);
 			path = AJLanguageToolUITests;
+			sourceTree = "<group>";
+		};
+		9D5B1DC51F603FCD00DF5CB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B1DC61F603FCD00DF5CB2 /* AJLanguageTool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D5B1DC61F603FCD00DF5CB2 /* AJLanguageTool */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B1DD01F6058BE00DF5CB2 /* AJLanguageCategories.plist */,
+				9D5B1DC71F603FF400DF5CB2 /* AJLanguageTool.h */,
+				9D5B1DC81F603FF400DF5CB2 /* AJLanguageTool.m */,
+				9D5B1DCA1F60480A00DF5CB2 /* AJLanguageChooseViewController.h */,
+				9D5B1DCB1F60480A00DF5CB2 /* AJLanguageChooseViewController.m */,
+				9D5B1DCD1F604AF700DF5CB2 /* AJLanguageChooseCell.h */,
+				9D5B1DCE1F604AF700DF5CB2 /* AJLanguageChooseCell.m */,
+				9D5B1DD21F605AF200DF5CB2 /* AJLanguageCategoryModel.h */,
+				9D5B1DD31F605AF200DF5CB2 /* AJLanguageCategoryModel.m */,
+			);
+			path = AJLanguageTool;
+			sourceTree = "<group>";
+		};
+		9D5B1DD71F61285F00DF5CB2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B1DDC1F61297400DF5CB2 /* Internationalization.strings */,
+				9D5B1DE31F6134F700DF5CB2 /* InfoPlist.strings */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +290,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9D5B1D861F603F8C00DF5CB2;
 			productRefGroup = 9D5B1D901F603F8C00DF5CB2 /* Products */;
@@ -250,8 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5B1DA21F603F8C00DF5CB2 /* LaunchScreen.storyboard in Resources */,
+				9D5B1DE11F6134F700DF5CB2 /* InfoPlist.strings in Resources */,
+				9D5B1DD11F6058BE00DF5CB2 /* AJLanguageCategories.plist in Resources */,
 				9D5B1D9F1F603F8C00DF5CB2 /* Assets.xcassets in Resources */,
 				9D5B1D9D1F603F8C00DF5CB2 /* Main.storyboard in Resources */,
+				9D5B1DDA1F61297400DF5CB2 /* Internationalization.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +339,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5B1DC91F603FF400DF5CB2 /* AJLanguageTool.m in Sources */,
 				9D5B1D9A1F603F8C00DF5CB2 /* ViewController.m in Sources */,
+				9D5B1DCC1F60480A00DF5CB2 /* AJLanguageChooseViewController.m in Sources */,
+				9D5B1DCF1F604AF700DF5CB2 /* AJLanguageChooseCell.m in Sources */,
 				9D5B1D971F603F8C00DF5CB2 /* AppDelegate.m in Sources */,
 				9D5B1D941F603F8C00DF5CB2 /* main.m in Sources */,
+				9D5B1DD41F605AF200DF5CB2 /* AJLanguageCategoryModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +385,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D5B1D9C1F603F8C00DF5CB2 /* Base */,
+				9D5B1DD51F6127AA00DF5CB2 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,8 +394,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				9D5B1DA11F603F8C00DF5CB2 /* Base */,
+				9D5B1DD61F6127AB00DF5CB2 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9D5B1DDC1F61297400DF5CB2 /* Internationalization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5B1DDB1F61297400DF5CB2 /* en */,
+				9D5B1DDD1F61297900DF5CB2 /* zh-Hans */,
+				9D5B1DDE1F61297E00DF5CB2 /* Base */,
+			);
+			name = Internationalization.strings;
+			sourceTree = "<group>";
+		};
+		9D5B1DE31F6134F700DF5CB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5B1DE21F6134F700DF5CB2 /* zh-Hans */,
+				9D5B1DE41F6134FB00DF5CB2 /* en */,
+				9D5B1DE51F6134FF00DF5CB2 /* Base */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -385,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -429,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJLanguageTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJLanguageTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJLanguageTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJLanguageTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
